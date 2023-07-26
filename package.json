@@ -1,16 +1,19 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "Patrick Michael Chiuco",
-	"version": "0.1",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "author": "Patrick Michael Chiuco",
+  "version": "0.1",
+  "description": "A sample project for freecodecamp backend api",
+  "keywords": ["freecodecamp", "sample", "project", "backend", "api"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
